@@ -63,4 +63,15 @@ line-height: normal;
   align-items: center;
   gap: 10px;
         }
+
+        .curriculum h2 {
+          font-size: 26px;
+        }
+      
+        .container {
+          flex-direction: column;
+        }
+.arrow-container{
+  display: none;
+}
 }
