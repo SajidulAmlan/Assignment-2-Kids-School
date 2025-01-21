@@ -2,11 +2,28 @@
 
 body{
     font-family: "Quicksand", serif;
+    width: 1440px;
 }
+* {
+    margin:10px auto;
+    padding: ;
+    box-sizing: border-box;
+  }
 /* shared styles */
+header{
+    margin: 0px auto;
+}
 li,a{
     text-decoration: none;
     list-style: none;
+}
+.text{
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-weight: 400;
+}
+img {
+    width: 100%;
 }
 
 /* NAv related styles */
@@ -14,9 +31,11 @@ li,a{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 1440px;
 }
 .logo{
     display: flex;
+    align-items: center;
     justify-content: center;
     gap: 20px;
 }
@@ -58,4 +77,32 @@ line-height: 30px;
 }
 .phone{
     display: none;
+}
+/* Bannner Realted Styles */
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;; 
+}
+.empower{
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 61px;
+}
+
+.btn-enroll{
+    padding: 10px 47px;
+    border-radius: 12px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+.btn-enroll:hover{
+    background-color: aqua;
+    color:#111;
 }

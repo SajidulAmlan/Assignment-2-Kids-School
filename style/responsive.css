@@ -1,5 +1,8 @@
 @media screen and (max-width: 580px) {
   /* Sharend style */
+  body{
+    width: auto;
+  }
   .hero,
   .curriculum,
   .story-container,
@@ -27,14 +30,37 @@
 
   .phn {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10px 0;
     width: calc(100% - 30px);
     margin: 0px auto;
+    gap: 430px;
   }
 
   .ham {
     width: 35px;
   }
+  /* Banner part Responsive */
+  .banner{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .empower{
+    font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  .text br{
+    display: none;
+  }
+  .btn-enroll{
+  font-size: 16px;
+  display: flex;
+  padding: 15px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+        }
 }
