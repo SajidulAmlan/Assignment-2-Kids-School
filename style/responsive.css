@@ -1,0 +1,40 @@
+@media screen and (max-width: 580px) {
+  /* Sharend style */
+  .hero,
+  .curriculum,
+  .story-container,
+  .foot {
+    width: calc(100% - 30px);
+    margin: 0px auto;
+  }
+  img {
+    width: 100%;
+  }
+
+  /* Nav bar */
+  .laptop {
+    display: none;
+  }
+  .phone {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .phone > hr {
+    margin: 0%;
+    border:.5px solid rgb(254, 163, 1);
+  }
+
+  .phn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    width: calc(100% - 30px);
+    margin: 0px auto;
+  }
+
+  .ham {
+    width: 35px;
+  }
+}
