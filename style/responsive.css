@@ -74,4 +74,63 @@ line-height: normal;
 .arrow-container{
   display: none;
 }
+ /* Our stories */
+ .story-card {
+  display: none;
+}
+
+.all-story {
+  grid-template-columns: 1fr;
+}
+.multi-story {
+  gap: 10px;
+}
+
+.date2 {
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 12px;
+  width: 130px;
+  margin-top: -22px;
+}
+
+.text4 {
+  margin: 10px;
+}
+
+/* Footer */
+.foot {
+  grid-template-columns: 1fr;
+}
+
+.kids-edu p {
+  text-align: left;
+}
+
+.foot-nav {
+  align-items: flex-start;
+  margin-top: 34px;
+}
+
+.social {
+  margin-top: 34px;
+}
+
+footer {
+  padding: 100px 0;
+}
+
+/* Fixed */
+.arrow-container {
+  display: none;
+}
+
+.story-container h2{
+  font-size: 30px;
+}
+
+.curriculum > h2{
+  font-size: 30px;
+}
+
 }
